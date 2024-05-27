@@ -14,7 +14,7 @@
             "password": "7layer",
             "rejectUnauthorized": false,
             "passphrase": "7layer",
-            "allowMutations": false
+            "allowMutations": true
         },
         "target": {
             "address": "https://localhost:8443/graphman",
