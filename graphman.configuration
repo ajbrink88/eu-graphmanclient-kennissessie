@@ -1,0 +1,34 @@
+{
+    "gateways": {
+        "default": {
+            "address": "https://localhost:8443/graphman",
+            "username": "admin",
+            "password": "7layer",
+            "rejectUnauthorized": false,
+            "passphrase": "7layer",
+            "allowMutations": false
+        },
+        "source": {
+            "address": "https://localhost:8443/graphman",
+            "username": "admin",
+            "password": "7layer",
+            "rejectUnauthorized": false,
+            "passphrase": "7layer",
+            "allowMutations": false
+        },
+        "target": {
+            "address": "https://localhost:8443/graphman",
+            "username": "admin",
+            "password": "7layer",
+            "rejectUnauthorized": false,
+            "passphrase": "7layer",
+            "allowMutations": true
+        }
+    },
+
+    "options": {
+        "log": "info",
+        "policyCodeFormat": "xml",
+        "keyFormat": "p12"
+    }
+}
